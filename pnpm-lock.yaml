@@ -10,6 +10,7 @@ specifiers:
   '@vue/eslint-config-typescript': ^11.0.3
   '@vue/tsconfig': ^0.3.2
   autoprefixer: ^10.4.14
+  chalk: ^5.2.0
   eslint: ^8.39.0
   eslint-plugin-vue: ^9.11.0
   npm-run-all: ^4.1.5
@@ -37,6 +38,7 @@ devDependencies:
   '@vue/eslint-config-typescript': 11.0.3_3yqipowpqywyhhnjptnan2yweu
   '@vue/tsconfig': 0.3.2
   autoprefixer: 10.4.14_postcss@8.4.23
+  chalk: 5.2.0
   eslint: 8.40.0
   eslint-plugin-vue: 9.11.0_eslint@8.40.0
   npm-run-all: 4.1.5
@@ -1028,6 +1030,11 @@ packages:
     dependencies:
       ansi-styles: 4.3.0
       supports-color: 7.2.0
+    dev: true
+
+  /chalk/5.2.0:
+    resolution: {integrity: sha512-ree3Gqw/nazQAPuJJEy+avdl7QfZMcUvmHIKgEZkGL+xOBzRvup5Hxo6LHuMceSxOabuJLJm5Yp/92R9eMmMvA==}
+    engines: {node: ^12.17.0 || ^14.13 || >=16.0.0}
     dev: true
 
   /chokidar/3.5.3:
